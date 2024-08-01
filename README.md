@@ -31,3 +31,6 @@ This time you are invited to find your own source of daylight information for ea
 #### Part 3
 
 You've created the API - now to explain to the business side how the calculation works. Produce one or more charts with an example scenario of an arriving vessel to a port - displaying the tidal variation, the draught of the vessel, and the tidal or overall restrictions window clearly evident from the chart. The choice of visualization tool is up to you.
+
+### Solution
+Please publish the solution to your GitHub and invite `Zhuravld` and `lskrajny-marcura` to review it.
