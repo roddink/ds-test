@@ -1,3 +1,5 @@
+Disclaimer: Task below represents a similiar type of problems we are solving at PortLog. The task is simplified and anonymized for the purpose of this test.
+
 # Forecast tidal window
 
 When can my vessel enter the port and travel until the berth?
