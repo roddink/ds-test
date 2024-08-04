@@ -9,6 +9,8 @@ from datetime import datetime
 
 
 FILE_DIR = os.path.dirname(os.path.realpath(__file__))
+
+# CSV FILE PATHS
 TIDE_CSV_PATH = os.path.join(FILE_DIR, '..\\tide_heights.csv')
 PORT_CSV_PATH = os.path.join(FILE_DIR, '..\\ports.csv')
 VESSEL_CSV_PATH =os.path.join(FILE_DIR, '..\\vessels.csv')

@@ -1,12 +1,18 @@
-from datetime import datetime
-
-
 class Intervals:
-    def __init__(self, interval_list):
+    """
+    Intervals object is designed to compute union and intersection of datetime intervals
+    """
+    def __init__(self, interval_list:list):
+        """
+        param: interval_list, list, format like [[1,2], [2,3], [4,5]]
+        """
         self.interval_list = []
         self.interval_list = self.union(interval_list)
     
-    def union(self, interval_list):
+    def union(self, interval_list:list) -> list:
+        """
+        Compute the union of self intervals and given intervals
+        """
         interval_list += self.interval_list
         if len(interval_list) == 0:
             return []
@@ -24,7 +30,10 @@ class Intervals:
         stack.sort(key=lambda x: x[0])
         return stack
 
-    def intersect(self, interval_list) -> list:
+    def intersect(self, interval_list:list) -> list:
+        """
+        Compute the intersection of self intervals and given intervals
+        """
         # Loop through all intervals unless one
         # of the interval gets exhausted
         i = j = 0
